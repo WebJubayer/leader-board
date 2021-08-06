@@ -112,7 +112,9 @@ hr{
     }
     .player, .blog-author{
         flex-direction: column;
-
+    }
+    .courses{
+        grid-template-columns: repeat(1,fr);
     }
 }
 /* tablet devices */
